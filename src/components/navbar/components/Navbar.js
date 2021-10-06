@@ -1,12 +1,8 @@
 import NavbarItem from './NavbarItem';
 import ConnectWalletButton from './ConnectWalletButton';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import "../assets/navbar.css";
 
-import Home from "../../home/Home";
-import Minting from '../../minting/Minting';
-import Market from '../../market/Market';
-import FAQ from '../../faq/FAQ';
+
 
 const Navbar = (props) => {
     return(
@@ -33,22 +29,7 @@ const Navbar = (props) => {
                     displayText="Connect Wallet"
                 />
             </div>
-            <BrowserRouter>
-                <Switch>
-                    <Route exact path="/">
-                        <Home/>
-                    </Route>
-                    <Route exact path="/minting">
-                        <Minting/>
-                    </Route>
-                    <Route exact path="/market">
-                        <Market/>
-                    </Route>
-                    <Route exact path="/faq">
-                        <FAQ/>
-                    </Route>
-                </Switch>
-            </BrowserRouter>
+            
         </div>
     );
 }

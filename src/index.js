@@ -4,9 +4,35 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import Home from './components/home/Home';
+import Market from './components/market/Market';
+import Minting from './components/minting/Minting';
+import FAQ from './components/faq/FAQ';
+import Navbar from './components/navbar/components/Navbar';
+
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar/>
+    <BrowserRouter>
+        <Switch>
+            <Route exact path="/">
+                <Home/>
+            </Route>
+            <Route exact path="/minting">
+                <Minting/>
+            </Route>
+            <Route exact path="/market">
+                <Market/>
+            </Route>
+            <Route exact path="/faq">
+                <FAQ/>
+            </Route>
+        </Switch>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
