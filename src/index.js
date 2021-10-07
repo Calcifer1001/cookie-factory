@@ -34,7 +34,8 @@ ReactDOM.render(
             </Route>
         </Switch>
     </BrowserRouter>
-    <EmoSection/>
+    <EmoSection align="left"/>
+    <EmoSection align="right"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

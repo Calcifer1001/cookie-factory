@@ -4,21 +4,39 @@ import EmoText from "./EmoText";
 
 
 const EmoSection = (props) => {
-    return(
-        <div class="row">
-            <div class="column">
-                <EmoTitle
-                    displayText="Cookies are pretty fun!"
-                />
-                <EmoText
-                    displayText="Bueno, vamos a ver que sale de esto fafñafñjafjfjfñlafjlaf añjfajffjlasf afsjñafjñafjñlsafjaf fdjañsfjfljasflñf afjñlafjlafjañsfjafff asñlfjfjjfñlf"
-                />
+    if (props.align == "left") {
+        return(
+            <div class="row">
+                <div class="column">
+                    <EmoTitle
+                        displayText="Cookies are pretty fun!"
+                    />
+                    <EmoText
+                        displayText="Bueno, vamos a ver que sale de esto fafñafñjafjfjfñlafjlaf añjfajffjlasf afsjñafjñafjñlsafjaf fdjañsfjfljasflñf afjñlafjlafjañsfjafff asñlfjfjjfñlf"
+                    />
+                </div>
+                <div class="column">
+                    <img alt="logo.png"/>
+                </div>
             </div>
-            <div class="column">
-                <img alt="logo.png"/>
+        );
+    } else if (props.align == "right") {
+        return(
+            <div class="row">
+                <div class="column">
+                    <img alt="logo.png"/>
+                </div>
+                <div class="column">
+                    <EmoTitle
+                        displayText="Cookies are pretty fun!"
+                    />
+                    <EmoText
+                        displayText="Bueno, vamos a ver que sale de esto fafñafñjafjfjfñlafjlaf añjfajffjlasf afsjñafjñafjñlsafjaf fdjañsfjfljasflñf afjñlafjlafjañsfjafff asñlfjfjjfñlf"
+                    />
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default EmoSection;
