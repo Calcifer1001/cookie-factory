@@ -1,7 +1,12 @@
 import React from 'react';
+import EmoSection from './components/EmoSection';
 
 export default function Home() {
-    return <h1>This is home</h1>;
-}
+    return (
+        <div>
+            <EmoSection />
+        </div>
+    );
+};
 
 

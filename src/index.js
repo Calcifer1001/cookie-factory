@@ -11,7 +11,6 @@ import Market from './components/market/Market';
 import Minting from './components/minting/Minting';
 import FAQ from './components/faq/FAQ';
 import Navbar from './components/navbar/components/Navbar';
-import EmoSection from './components/home/components/EmoSection';
 
 
 
@@ -34,8 +33,6 @@ ReactDOM.render(
             </Route>
         </Switch>
     </BrowserRouter>
-    <EmoSection align="left"/>
-    <EmoSection align="right"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
