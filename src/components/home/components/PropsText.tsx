@@ -1,6 +1,6 @@
-const PropsText = (props) => {
+const PropsText = (props: Record<string, any>) => {
     return(
-        <div class='props-text'>
+        <div className='props-text'>
             <a>{props.displayText}</a>
         </div>
     );

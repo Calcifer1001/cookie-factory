@@ -4,10 +4,10 @@ import "../assets/navbar.css";
 
 
 
-const Navbar = (props) => {
+const Navbar = (props: Record<string, any>) => {
     return(
         <div>
-            <div class="flex-row">
+            <div className="flex-row">
                 <img alt="logo.png"/>
                 <NavbarItem 
                     displayText="Home"

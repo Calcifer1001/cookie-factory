@@ -1,6 +1,6 @@
-const PropsTitle = (props) => {
+const PropsTitle = (props: Record<string, any>) => {
     return(
-        <div class='props-title'>
+        <div className='props-title'>
             <a>{props.displayText}</a>
         </div>
     );

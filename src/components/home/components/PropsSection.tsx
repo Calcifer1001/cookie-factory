@@ -1,14 +1,13 @@
 import "../assets/common.css";
 import "../assets/props.css";
-import PropsTitle from "./PropsTitle.js";
-import PropsText from "./PropsText.js";
+import PropsTitle from "./PropsTitle";
+import PropsText from "./PropsText";
 
-
-const PropsSection = (props) => {
+const PropsSection = (props: Record<string, any>): JSX.Element => {
     if (props.align == 'left') {
         return (
-            <div class="row">
-                <div class="column">
+            <div className="row">
+                <div className="column">
                     <PropsTitle
                         displayText={props.title}
                     />
@@ -16,18 +15,18 @@ const PropsSection = (props) => {
                         displayText={props.text}
                     />
                 </div>
-                <div class="column">
+                <div className="column">
                     <img alt="logo.png" />
                 </div>
             </div>
         ); 
     } else if (props.align == 'right') {
         return (
-            <div class="row">
-                <div class="column">
+            <div className="row">
+                <div className="column">
                     <img alt="logo.png" />
                 </div>
-                <div class="column">
+                <div className="column">
                     <PropsTitle
                         displayText={props.title}
                     />
@@ -38,6 +37,7 @@ const PropsSection = (props) => {
             </div>
         );
     }
+    return <div></div>;
 };
 
 export default PropsSection;

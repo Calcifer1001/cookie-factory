@@ -1,13 +1,13 @@
 import "../assets/authors.css";
 
-const Author = (props) => {
+const Author = (props: Record<string, any>) => {
     return(
-        <div class="author-column">
+        <div className="author-column">
             <img alt="logo.png" />
-            <div class='authors-name'>
+            <div className='authors-name'>
                 <a>{props.name}</a>
             </div>
-            <div class='authors-text'>
+            <div className='authors-text'>
                 <a>{props.text}</a>
             </div>
         </div>

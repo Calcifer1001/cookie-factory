@@ -1,6 +1,6 @@
-const AuthorsTitle = (props) => {
+const AuthorsTitle = (props: Record<string, any>) => {
     return(
-        <div class='authors-title'>
+        <div className='authors-title'>
             <a>{props.displayText}</a>
         </div>
     );
