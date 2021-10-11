@@ -1,5 +1,5 @@
 import "../assets/props.css";
-import PropsTitle from './PropsTitle.js';
+import PropsTitle from "./PropsTitle.js";
 import PropsText from "./PropsText";
 
 
@@ -9,10 +9,10 @@ const PropsSection = (props) => {
             <div class="row">
                 <div class="column">
                     <PropsTitle
-                        displayText="Cookies are pretty fun!"
+                        displayText={props.title}
                     />
                     <PropsText
-                        displayText="Bueno, vamos a ver que sale de esto fafñafñjafjfjfñlafjlaf añjfajffjlasf afsjñafjñafjñlsafjaf fdjañsfjfljasflñf afjñlafjlafjañsfjafff asñlfjfjjfñlf"
+                        displayText={props.text}
                     />
                 </div>
                 <div class="column">
@@ -28,10 +28,10 @@ const PropsSection = (props) => {
                 </div>
                 <div class="column">
                     <PropsTitle
-                        displayText="Cookies are pretty fun!"
+                        displayText={props.title}
                     />
                     <PropsText
-                        displayText="Bueno, vamos a ver que sale de esto fafñafñjafjfjfñlafjlaf añjfajffjlasf afsjñafjñafjñlsafjaf fdjañsfjfljasflñf afjñlafjlafjañsfjafff asñlfjfjjfñlf"
+                        displayText={props.text}
                     />
                 </div>
             </div>
