@@ -18,11 +18,11 @@ const AuthorsSection = (props) => {
                     />
                 </div>
                 <div class="row">
-                    <Author name='Author 1' name='Cookie Maker 1' text={author1Text}/>
-                    <Author name='Author 2' name='Cookie Maker 2' text={author2Text}/>
-                    <Author name='Author 3' name='Cookie Maker 3' text={author3Text}/>
-                    <Author name='Author 4' name='Cookie Maker 4' text={author4Text}/>
-                    <Author name='Author 5' name='Cookie Maker 5' text={author5Text}/>
+                    <Author name='Cookie Maker 1' text={author1Text}/>
+                    <Author name='Cookie Maker 2' text={author2Text}/>
+                    <Author name='Cookie Maker 3' text={author3Text}/>
+                    <Author name='Cookie Maker 4' text={author4Text}/>
+                    <Author name='Cookie Maker 5' text={author5Text}/>
                 </div>
             </div>
         );
