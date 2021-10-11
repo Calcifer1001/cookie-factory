@@ -1,12 +1,15 @@
 import React from 'react';
-import EmoSection from './components/EmoSection';
+import PropsSection from './components/PropsSection';
 
 export default function Home() {
     return (
         <div>
-            <EmoSection />
+            <div>
+                <PropsSection align='left' />
+            </div>
+            <div>
+                <PropsSection align='right' />
+            </div>
         </div>
     );
 };
-
-
