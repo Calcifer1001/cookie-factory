@@ -1,6 +1,7 @@
+import "../assets/common.css";
 import "../assets/props.css";
 import PropsTitle from "./PropsTitle.js";
-import PropsText from "./PropsText";
+import PropsText from "./PropsText.js";
 
 
 const PropsSection = (props) => {
