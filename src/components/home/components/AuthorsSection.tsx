@@ -1,6 +1,6 @@
 import "../assets/common.css";
-import "../assets/authors.css";
-import AuthorsTitle from "./AuthorsTitle";
+import "../assets/authors";
+import { AuthorTitle } from "../assets/authors";
 import Author from "./Author";
 
 import { getAutorList } from "../textfiles/authorsText";
@@ -11,18 +11,19 @@ const AuthorsSection = (props: Record<string, any>) => {
         return (
             <div>
                 <div className="row">
-                    <AuthorsTitle
-                        displayText='Cookie Makers'
-                    />
+                    <AuthorTitle>
+                        <a>Cookie Makers</a>
+                    </AuthorTitle>
                 </div>
-                <div className="row">
-                    
-                    {
-                        authorList.map( (element, i) => {
-                            return <Author name={'Cookie Maker ' + (i+1)} text={element}/>        
-                        })
-                    }
-                    
+                <div>
+                    <div className="row">
+                        {
+                            authorList.map( (element, i) => {
+                                return <Author name={'Cookie Maker ' + (i+1)} text={element}/>        
+                            })
+                        }
+                        
+                    </div>
                 </div>
             </div>
         );
