@@ -1,10 +1,8 @@
 import React from 'react';
 import Welcome from './components/Welcome';
 import PropsSection from './components/PropsSection';
-import emotionTitle from './textfiles/emotionTitle'
-import emotionText from './textfiles/emotionText'
-import attributesTitle from './textfiles/attributesTitle'
-import attributesText from './textfiles/attributesText'
+import emotionTexts from './textfiles/emotion'
+import attributesTexts from './textfiles/attributes'
 import AuthorsSection from './components/AuthorsSection';
 
 export default function Home() {
@@ -14,10 +12,10 @@ export default function Home() {
                 <Welcome/>
             </div>
             <div>
-                <PropsSection align='left' title={emotionTitle} text={emotionText}/>
+                <PropsSection align='left' title={emotionTexts.title} text={emotionTexts.content}/>
             </div>
             <div>
-                <PropsSection align='right' title={attributesTitle} text={attributesText}/>
+                <PropsSection align='right' title={attributesTexts.title} text={attributesTexts.content}/>
             </div>
             <div>
                 <AuthorsSection />

@@ -8,7 +8,7 @@ const FaqComponent = (props: Record<string, any>) => {
             {
                 faqsText['questions'].map((question,i) => {
                     return(
-                        <div>
+                        <div className={i % 2 == 0 ? 'even' : 'odd'}>
                             <Question displayText={question} />
                             <Answer displayText={faqsText['answers'][i]} />
                         </div>

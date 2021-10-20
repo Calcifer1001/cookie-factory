@@ -3,7 +3,7 @@ import "../assets/authors";
 import { AuthorTitle } from "../assets/authors";
 import Author from "./Author";
 
-import { getAutorList } from "../textfiles/authorsText";
+import { getAutorList } from "../textfiles/authors";
 
 let authorList = getAutorList();
 

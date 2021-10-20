@@ -6,6 +6,10 @@ const author5Text = 'One of the most famous Cookie Makers in our Galaxy';
 
 let authorList: Array<String> = [];
 
+const authors = {
+    
+}
+
 export function getAutorList() {
     authorList.push(author1Text);
     authorList.push(author2Text);
