@@ -1,7 +1,17 @@
+import faqsText from "../textfiles/faqsText";
+
 const FaqComponent = (props: Record<string, any>) => {
     return(
         <div>
-            <h1> sdff </h1>
+            <div> 
+                {
+                    faqsText.map((element, i) => {
+                    return (
+                        <h1></h1> 
+                    )
+                    })
+                }
+            </div>
         </div>
     );
 };
