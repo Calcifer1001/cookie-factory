@@ -1,4 +1,4 @@
-import { AuthorName, AuthorText, AuthorColumn } from "../assets/authors";
+import styled from 'styled-components';
 
 const Author = (props: Record<string, any>) => {
     return(
@@ -16,5 +16,26 @@ const Author = (props: Record<string, any>) => {
         );
 }
 
-export default Author;
+export const AuthorName = styled.div`
+    font-family: Arial;
+    color: darkorchid;
+    font-size: 150%;
+    background-color: lightblue;
+    text-align: center;
+    padding : 5%;
+`
 
+export const AuthorText = styled.div`
+    font-family: Arial;
+    color: darkorchid;
+    font-size: 100%;
+    background-color: lightblue;
+    padding : 5%;
+`
+
+export const AuthorColumn = styled.div`
+    float: left;
+    width: 20%;
+`
+
+export default Author;

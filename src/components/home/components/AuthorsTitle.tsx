@@ -1,6 +1,6 @@
 const AuthorsTitle = (props: Record<string, any>) => {
     return(
-        <div className='authors-title'>
+        <div>
             <a>{props.displayText}</a>
         </div>
     );

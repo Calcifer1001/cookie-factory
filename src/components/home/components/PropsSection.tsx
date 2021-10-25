@@ -1,5 +1,4 @@
 import "../assets/common.css";
-import "../assets/props.css";
 import PropsTitle from "./PropsTitle";
 import PropsText from "./PropsText";
 
