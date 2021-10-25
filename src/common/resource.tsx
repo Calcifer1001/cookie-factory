@@ -30,3 +30,26 @@ export const Authors = {
         Description: 'One of the most famous Cookie Makers in our Galaxy'
     }
 }
+
+export const Attributes = {
+    Title: 'Nice Cookies designs to everybody!',
+    DisplayText: 'Hola, soy Troy McClure, tal vez me recuerden de películas como...'
+}
+
+export const Emotions = {
+    Title: 'Cookies are delicious',
+    DisplayText: 'Cookies have been at our tables, bringing joy to our lives for over a millennia now. \
+    That is why we want to bring you cookies to the comforts of the internet, so you can \
+    share a good time with your friends and family.'
+}
+
+export const FAQs = {
+    QA1: {
+        question: '¿Cómo obtengo mi Cookie?',
+        answer:'Comprando...'
+    },
+    QA2: {
+        question: '¿Por que me interesan las Cookies?',
+        answer: 'Por que son muy ricas'
+    }
+}

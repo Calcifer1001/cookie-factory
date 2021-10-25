@@ -1,19 +1,14 @@
-import faqsText from "../textfiles/faqsText";
+import { FAQs } from "../../../common/resource";
 import Question from "./Question";
 import Answer from "./Answer";
 
 const FaqComponent = (props: Record<string, any>) => {
     return(
         <div>
-            {
-                faqsText['questions'].map((question,i) => {
-                    return(
-                        <div className={i % 2 == 0 ? 'even' : 'odd'}>
-                            <Question displayText={question} />
-                            <Answer displayText={faqsText['answers'][i]} />
-                        </div>
-                    )
-            })}
+            <Question displayText={FAQs.QA1.question} />
+            <Answer displayText={FAQs.QA1.answer} />
+            <Question displayText={FAQs.QA2.question} />
+            <Answer displayText={FAQs.QA2.answer} />
         </div>
     );
 };
