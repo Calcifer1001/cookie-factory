@@ -14,11 +14,9 @@ const AuthorsSection = (props: Record<string, any>) => {
                 </div>
                 <div>
                     <div className="row">
-                        <Author name={Authors.author1.Name} text={Authors.author1.Description}/>
-                        <Author name={Authors.author2.Name} text={Authors.author2.Description}/>
-                        <Author name={Authors.author3.Name} text={Authors.author3.Description}/>
-                        <Author name={Authors.author4.Name} text={Authors.author4.Description}/>
-                        <Author name={Authors.author5.Name} text={Authors.author5.Description}/>
+                        {Authors.basicData.map(author => (
+                            <Author name={author.Name} text={author.Description} src={author.src}/>
+                        ))}
                     </div>
                 </div>
             </div>

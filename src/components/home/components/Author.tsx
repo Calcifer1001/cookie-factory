@@ -4,7 +4,7 @@ const Author = (props: Record<string, any>) => {
     return(
         <div>
             <AuthorColumn>
-                <img alt="logo.png" />
+                <img src={props.src} alt="logo.png" />
                 <AuthorName>
                     <a>{props.name}</a>
                 </AuthorName>

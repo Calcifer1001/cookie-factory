@@ -9,26 +9,33 @@ export const Minting = {
 }
 
 export const Authors = {
-    author1: {
-        Name: 'Cookie Maker 1',
-        Description: 'One of the most famous Cookie Makers in our Galaxy'
-    },
-    author2: {
-        Name: 'Cookie Maker 2',
-        Description: 'One of the most famous Cookie Makers in our Galaxy'
-    },
-    author3: {
-        Name: 'Cookie Maker 3',
-        Description: 'One of the most famous Cookie Makers in our Galaxy'
-    },
-    author4: {
-        Name: 'Cookie Maker 4',
-        Description: 'One of the most famous Cookie Makers in our Galaxy'
-    },
-    author5: {
-        Name: 'Cookie Maker 5',
-        Description: 'One of the most famous Cookie Makers in our Galaxy'
-    }
+    basicData: [
+        {
+            Name: 'Cookie Maker 1',
+            Description: 'One of the most famous Cookie Makers in our Galaxy',
+            src: 'logo.png',
+        },
+        {
+            Name: 'Cookie Maker 2',
+            Description: 'One of the most famous Cookie Makers in our Galaxy',
+            src: 'logo.png'
+        },
+        {
+            Name: 'Cookie Maker 3',
+            Description: 'One of the most famous Cookie Makers in our Galaxy',
+            src: 'logo.png'
+        },
+        {
+            Name: 'Cookie Maker 4',
+            Description: 'One of the most famous Cookie Makers in our Galaxy',
+            src: 'logo.png'
+        },
+        {
+            Name: 'Cookie Maker 4',
+            Description: 'One of the most famous Cookie Makers in our Galaxy',
+            src: 'logo.png'
+        }
+    ]
 }
 
 export const Attributes = {
@@ -44,12 +51,14 @@ export const Emotions = {
 }
 
 export const FAQs = {
-    QA1: {
-        question: '¿Cómo obtengo mi Cookie?',
-        answer:'Comprando...'
-    },
-    QA2: {
-        question: '¿Por que me interesan las Cookies?',
-        answer: 'Por que son muy ricas'
-    }
+    basicData: [
+        {
+            question: '¿Cómo obtengo mi Cookie?',
+            answer:'Comprando...'
+        },
+        {
+            question: '¿Por qué me están buenas las cookies?',
+            answer:'Por que están geniales!'
+        }
+    ]
 }
