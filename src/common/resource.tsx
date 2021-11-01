@@ -62,3 +62,14 @@ export const FAQs = {
         }
     ]
 }
+
+export const Sponsors = {
+    sponsors: [
+        {
+            src: '../../assets/metapool_logo.ico'
+        },
+        {
+            src: 'C:/Users/leomi/Desktop/Leo/Projects/NFTs/ReactProject/CookiesFactory/cookie-factory/assets/narwallets_logo_128.png'
+        }
+    ]
+}

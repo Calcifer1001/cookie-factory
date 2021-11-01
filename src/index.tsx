@@ -9,7 +9,7 @@ import Market from './components/market/Market';
 import Minting from './components/minting/Minting';
 import FAQ from './components/faq/FAQ';
 import Navbar from './components/navbar/components/Navbar';
-
+import SponsorComponent from './components/sponsors/components/SponsorComponent';
 
 
 ReactDOM.render(
@@ -31,6 +31,7 @@ ReactDOM.render(
                 </Route>
             </Switch>
         </BrowserRouter>
+        <SponsorComponent />
     </React.StrictMode>,
     document.getElementById('root')
 );
