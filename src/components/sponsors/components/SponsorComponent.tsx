@@ -5,7 +5,7 @@ const SponsorComponent = (props: Record<string, any>) => {
     return (
         <div>
             {Sponsors.sponsors.map(sponsor => (
-                <SponsorItem src={sponsor.src} alt='logo.png'/>
+                <SponsorItem sponsor={sponsor} alt='logo.png'/>
             ))}
         </div>
     )

@@ -1,3 +1,6 @@
+import metapoolLogo from '../components/sponsors/assets/metapool_logo.png';
+import narwalletsLogo from '../components/sponsors/assets/narwallets_logo_128.png';
+
 export const Minting = {
     Title: 'Este es el titulo de la pagina de minting',
     Subtitle: 'Este es el subtitulo',
@@ -66,10 +69,12 @@ export const FAQs = {
 export const Sponsors = {
     sponsors: [
         {
-            src: '../../assets/metapool_logo.ico'
+            src: metapoolLogo,
+            href: 'https://metapool.app'
         },
         {
-            src: 'C:/Users/leomi/Desktop/Leo/Projects/NFTs/ReactProject/CookiesFactory/cookie-factory/assets/narwallets_logo_128.png'
+            src: narwalletsLogo,
+            href: 'https://chrome.google.com/webstore/detail/narwallets/bnbmlmjhaohpobnjfifeghjmamjfolnb'
         }
     ]
 }
