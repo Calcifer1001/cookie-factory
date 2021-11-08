@@ -4,14 +4,17 @@ import styled from 'styled-components';
 
 export default function ConnectWallet() {
     return (
-        <CenterBlock>
+        <CenterDiv>
             <NearComponent />
             <NarwalletsComponent />
-        </CenterBlock>
+        </CenterDiv>
     );
 };
 
-const CenterBlock = styled.div`
-    display: inline-block;
-    text-align: center;
+const CenterDiv = styled.div`
+    display: flex;
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content: center;
+    align-items: center;
 `
