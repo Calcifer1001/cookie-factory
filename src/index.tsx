@@ -10,7 +10,7 @@ import Minting from './components/minting/Minting';
 import FAQ from './components/faq/FAQ';
 import Navbar from './components/navbar/components/Navbar';
 import SponsorComponent from './components/sponsors/components/SponsorComponent';
-
+import ConnectWallet from './components/connectWallet/ConnectWallet';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -28,6 +28,9 @@ ReactDOM.render(
                 </Route>
                 <Route exact path="/faq">
                     <FAQ />
+                </Route>
+                <Route exact path="/connectWallet">
+                    <ConnectWallet />
                 </Route>
             </Switch>
         </BrowserRouter>

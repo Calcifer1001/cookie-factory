@@ -1,11 +1,17 @@
-import React from 'react';
-// import NearComponent from './components/nearComponent';
-// import NarWalletsComponent from './components/narwalletsComponent';
+import NearComponent from './components/nearComponent';
+import NarwalletsComponent from './components/narwalletsComponent';
+import styled from 'styled-components';
 
-export default function connectWallet() {
+export default function ConnectWallet() {
     return (
-        <div>
-            <h1> Hola </h1>
-        </div>
+        <CenterBlock>
+            <NearComponent />
+            <NarwalletsComponent />
+        </CenterBlock>
     );
 };
+
+const CenterBlock = styled.div`
+    display: inline-block;
+    text-align: center;
+`
