@@ -7,7 +7,7 @@ const NarwalletsComponent  = (props: Record<string, any>) => {
         <CenterBlock>
             <a href='https://es.wikipedia.org/wiki/Harry_Potter'>
                 <Wallet src={NarwalletsImage} alt={'logo.png'}/>
-                Narwallets
+                Narwallets <br/>
                 chrome-extension
             </a>
         </CenterBlock>
