@@ -8,13 +8,6 @@ const PropsTitle = (props: Record<string, any>) => {
     );
 }
 
-const PropsTitleCSS = styled.div`
-    font-family: Verdana;
-    color: purple;
-    font-size: 300%;
-    background-color: lightskyblue;
-    text-align: center;
-    padding: 2%
-`
+const PropsTitleCSS = styled.div``
 
 export default PropsTitle;

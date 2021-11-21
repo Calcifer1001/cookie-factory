@@ -8,12 +8,6 @@ const PropsText = (props: Record<string, any>) => {
     );
 };
 
-const PropsTextCSS = styled.div`
-    font-family: Arial;
-    color: darkorchid;
-    font-size: 100%;
-    background-color: lightblue;
-    padding : 5%;
-`
+const PropsTextCSS = styled.div``
 
 export default PropsText;

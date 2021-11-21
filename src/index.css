@@ -1,13 +1,50 @@
+:root {
+  --dark-brown: #915731;
+  --orange: #D18436;
+  --light-orange: #F8EDE7;
+  --dark-gray: #212121;
+  --cool-font: 'Fruktur', sans-serif;
+  --basic-font: 'Roboto', sans-serif;
+  --fs-xxxl: 48px;
+  --fs-xxl: 38px;
+  --fs-xl: 32px;
+  --fs-lg: 24px;
+  --fs-md: 18px;
+  --fs-rg: 16px;
+  --fs-sm: 14px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--basic-font);
+  font-size: var(--fs-rg);
+  background-color: var(--light-orange);
+  color: var(--dark-gray);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+div.max-width {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+div.align-center {
+  text-align: center;
+}
+
+.flex-row {
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: space-between;
+}
+
+/* Move to individual pages CSS - Out of index.css */
+h2 {
+  font-family: var(--cool-font);
+  font-size: var(--fs-xxl);
+  color: var(--dark-brown);
 }

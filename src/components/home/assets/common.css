@@ -1,3 +1,28 @@
+h1 {
+  font-family: var(--cool-font);
+  font-size: var(--fs-xxxl);
+  color: var(--dark-brown);
+}
+
+h1 ~ p {
+  font-weight: 700;
+  font-size: var(--fs-lg);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  padding: 120px 0;
+}
+
+.hero-cookie {
+  height: 120px;
+  width: 120px;
+  margin: 0 30px;
+  border: 3px solid var(--orange);
+  border-radius: 8px;
+}
+
 .column {
     float: left;
     width: 50%;
