@@ -6,19 +6,23 @@ import AuthorsSection from './components/AuthorsSection';
 
 export default function Home() {
     return (
-        <div>
-            <div>
+        <main>
+            <section className="hero-section">
                 <Welcome/>
-            </div>
-            <div>
-                <PropsSection align='left' title={Emotions.Title} text={Emotions.DisplayText}/>
-            </div>
-            <div>
-                <PropsSection align='right' title={Attributes.Title} text={Attributes.DisplayText}/>
-            </div>
-            <div>
+            </section>
+            <section className="props-section">
+                <div>
+                    <div>
+                        <PropsSection align='left' title={Emotions.Title} text={Emotions.DisplayText}/>
+                    </div>
+                    <div>
+                        <PropsSection align='right' title={Attributes.Title} text={Attributes.DisplayText}/>
+                    </div>
+                </div>
+            </section>
+            <section className="authors-section align-center">
                 <AuthorsSection />
-            </div>
-        </div>
+            </section>
+        </main>
     );
 };

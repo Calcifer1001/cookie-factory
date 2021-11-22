@@ -1,8 +1,9 @@
 :root {
   --dark-brown: #915731;
   --orange: #D18436;
+  --orange-a35: rgba(209,132,54,0.35);
   --light-orange: #F8EDE7;
-  --dark-gray: #212121;
+  --dark-gray: #1B1C20;
   --cool-font: 'Fruktur', sans-serif;
   --basic-font: 'Roboto', sans-serif;
   --fs-xxxl: 48px;
@@ -24,17 +25,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-div.max-width {
+p {
+  margin: 0;
+}
+
+.max-width {
   max-width: 1440px;
   margin: 0 auto;
   height: 100%;
+  padding: 0 30px;
 }
 
-div.align-center {
+.align-center {
   text-align: center;
 }
 
 .flex-row {
+  display: flex;
   flex-direction: row;
   width: 100%;
   text-align: center;
@@ -42,9 +49,20 @@ div.align-center {
   align-items: space-between;
 }
 
+
 /* Move to individual pages CSS - Out of index.css */
 h2 {
   font-family: var(--cool-font);
-  font-size: var(--fs-xxl);
+  font-size: var(--fs-xl);
   color: var(--dark-brown);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: var(--cool-font);
+  font-size: var(--fs-lg);
+  color: var(--dark-brown);
+  margin: 0;
+  margin-bottom: 5px;
 }

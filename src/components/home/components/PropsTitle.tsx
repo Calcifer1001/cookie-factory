@@ -2,12 +2,8 @@ import styled from 'styled-components';
 
 const PropsTitle = (props: Record<string, any>) => {
     return(
-        <PropsTitleCSS>
-            <a>{props.displayText}</a>
-        </PropsTitleCSS>
+        <h2>{props.displayText}</h2>
     );
 }
-
-const PropsTitleCSS = styled.div``
 
 export default PropsTitle;
