@@ -1,6 +1,7 @@
 import NavbarItem from './NavbarItem';
 import ConnectWalletButton from './ConnectWalletButton';
 import "../assets/navbar.css";
+import CookieLogo from '../assets/cookie-logo.png';
 
 const Navbar = (props: Record<string, any>) => {
     return(
@@ -8,7 +9,7 @@ const Navbar = (props: Record<string, any>) => {
             <div className="max-width">
                 <div className="nav-container">
                     <div className="nav-left">
-                        <a href="/"><img src="../assets/cookie-logo.png" alt="logo.png"/></a>
+                        <a href="/"><img src={CookieLogo} alt="logo.png"/></a>
                         <NavbarItem 
                             displayText="Minting"
                             href="/minting"

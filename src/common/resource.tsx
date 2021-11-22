@@ -2,8 +2,6 @@ import metapoolLogo from '../components/sponsors/assets/metapool_logo.png';
 import narwalletsLogo from '../components/sponsors/assets/narwallets_logo_128.png';
 
 export const Minting = {
-    Title: 'Este es el titulo de la pagina de minting',
-    Subtitle: 'Este es el subtitulo',
     CardList: {
         PropUno: 'Esta es la primer prop',
         PropDos: 'Esta es la segunda prop',
@@ -34,7 +32,7 @@ export const Authors = {
             src: 'logo.png'
         },
         {
-            Name: 'Cookie Maker 4',
+            Name: 'Cookie Maker 5',
             Description: 'One of the most famous Cookie Makers in our Galaxy',
             src: 'logo.png'
         }
@@ -42,15 +40,13 @@ export const Authors = {
 }
 
 export const Attributes = {
-    Title: 'Nice Cookies designs to everybody!',
-    DisplayText: 'Hola, soy Troy McClure, tal vez me recuerden de películas como...'
+    Title: 'Nice cookie designs for everybody',
+    DisplayText: 'Some more text here about the cookies and all of that, etcetera, more more more.'
 }
 
 export const Emotions = {
     Title: 'Cookies are delicious',
-    DisplayText: 'Cookies have been at our tables, bringing joy to our lives for over a millennia now. \
-    That is why we want to bring you cookies to the comforts of the internet, so you can \
-    share a good time with your friends and family.'
+    DisplayText: 'CCookies have been at our tables, bringing joy to our lives for over a milennia now. That is why we want to bring you cookies to the comforts of the internet, so you can share a good time with your friends and family.'
 }
 
 export const FAQs = {

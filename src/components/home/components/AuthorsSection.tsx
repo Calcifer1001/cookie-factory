@@ -6,14 +6,12 @@ import Author from "./Author";
 
 const AuthorsSection = (props: Record<string, any>) => {
         return (
-            <div>
-                <div>
+            <div className="max-width">
                     <div className="flex-row">
                         {Authors.basicData.map(author => (
                             <Author name={author.Name} text={author.Description} src={author.src}/>
                         ))}
                     </div>
-                </div>
             </div>
         );
 };

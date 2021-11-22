@@ -8,13 +8,6 @@ const Answer = (props: Record<string, any>) => {
     );
 }
 
-const AnswerStyle = styled.h2`
-        font-family: Verdana;
-        color: purple;
-        font-size: 100%;
-        background-color: lightskyblue;
-        text-align: center;
-        padding: 2%
-`
+const AnswerStyle = styled.h2``
 
 export default Answer;

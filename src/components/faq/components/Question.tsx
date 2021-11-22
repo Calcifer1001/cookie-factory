@@ -8,13 +8,6 @@ const Question = (props: Record<string, any>) => {
     );
 }
 
-const QuestionStyle = styled.h1`
-        font-family: Verdana;
-        color: purple;
-        font-size: 100%;
-        background-color: lightskyblue;
-        text-align: center;
-        padding: 2%
-`
+const QuestionStyle = styled.h1``
 
 export default Question;
