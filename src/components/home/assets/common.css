@@ -10,9 +10,17 @@ h1 ~ p {
   margin: 0 auto;
 }
 
-.hero-container,
+.hero-container {
+  padding-top: 240px;
+  padding-bottom: 160px;
+}
+
 .authors-section {
   padding: 120px 0;
+}
+
+.faq-section {
+  padding-bottom: 120px;
 }
 
 .props-section {

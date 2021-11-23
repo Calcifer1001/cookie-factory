@@ -1,6 +1,7 @@
 :root {
   --dark-brown: #915731;
   --orange: #D18436;
+  --orange-a15: rgba(209,132,54,0.15);
   --orange-a35: rgba(209,132,54,0.35);
   --light-orange: #F8EDE7;
   --dark-gray: #1B1C20;
@@ -26,6 +27,7 @@ body {
 }
 
 p {
+  font-size: var(--fs-md);
   margin: 0;
 }
 
@@ -49,6 +51,12 @@ p {
   align-items: space-between;
 }
 
+.two-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 60px 80px;
+}
 
 /* Move to individual pages CSS - Out of index.css */
 h2 {

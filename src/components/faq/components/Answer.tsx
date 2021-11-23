@@ -8,6 +8,6 @@ const Answer = (props: Record<string, any>) => {
     );
 }
 
-const AnswerStyle = styled.h2``
+const AnswerStyle = styled.p``
 
 export default Answer;

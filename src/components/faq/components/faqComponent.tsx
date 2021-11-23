@@ -4,14 +4,14 @@ import Answer from "./Answer";
 
 const FaqComponent = (props: Record<string, any>) => {
     return(
-        <div>
+        <section className="faq-section max-width two-col-grid">
             {FAQs.basicData.map(faq => (
                 <div>
                     <Question displayText={faq.question} />
                     <Answer displayText={faq.answer} />
                 </div>
             ))}
-        </div>
+        </section>
     );
 };
 

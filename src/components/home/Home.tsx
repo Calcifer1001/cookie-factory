@@ -20,7 +20,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="authors-section align-center">
+            <section className="authors-section align-center ptb-120">
                 <AuthorsSection />
             </section>
         </main>

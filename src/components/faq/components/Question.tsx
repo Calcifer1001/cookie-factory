@@ -8,6 +8,6 @@ const Question = (props: Record<string, any>) => {
     );
 }
 
-const QuestionStyle = styled.h1``
+const QuestionStyle = styled.h2``
 
 export default Question;
