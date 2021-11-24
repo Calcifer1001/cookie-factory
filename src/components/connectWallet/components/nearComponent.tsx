@@ -3,15 +3,21 @@ import Wallet from './Wallet';
 import NearImage from '../assets/near-logo-black.svg';
 
 const NearComponent  = (props: Record<string, any>) => {
+    function connect() {
+        
+    }
+
     return(
         <CenterBlock>
             <a href='https://es.wikipedia.org/wiki/Harry_Potter'>
-                <Wallet src={NearImage} alt={'logo.png'}/>
+                <Wallet src={NearImage} alt={'logo.png'} onClick={connect}/>
                 Near Web Wallet
             </a>
         </CenterBlock>
     );
 };
+
+
 
 const CenterBlock = styled.div`
     display: inline-block;

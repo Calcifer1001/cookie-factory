@@ -1,5 +1,5 @@
-import metapoolLogo from '../components/sponsors/assets/metapool_logo.png';
-import narwalletsLogo from '../components/sponsors/assets/narwallets_logo_128.png';
+import metapoolLogo from '../components/home/assets/metapool_logo.png';
+import narwalletsLogo from '../components/home/assets/narwallets_logo_128.png';
 
 export const Minting = {
     CardList: {

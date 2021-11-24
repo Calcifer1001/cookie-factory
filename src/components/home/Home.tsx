@@ -2,6 +2,7 @@ import React from 'react';
 import Welcome from './components/Welcome';
 import PropsSection from './components/PropsSection';
 import { Attributes, Emotions} from '../../../src/common/resource'
+import SponsorComponent from './components/SponsorComponent';
 import AuthorsSection from './components/AuthorsSection';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
             <section className="authors-section align-center ptb-120">
                 <AuthorsSection />
             </section>
+            <SponsorComponent />
         </main>
     );
 };

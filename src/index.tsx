@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
 import Home from './components/home/Home';
 import Market from './components/market/Market';
 import Minting from './components/minting/Minting';
 import FAQ from './components/faq/FAQ';
 import Navbar from './components/navbar/components/Navbar';
-import SponsorComponent from './components/sponsors/components/SponsorComponent';
+
 import ConnectWallet from './components/connectWallet/ConnectWallet';
 
 ReactDOM.render(
@@ -34,7 +33,7 @@ ReactDOM.render(
                 </Route>
             </Switch>
         </BrowserRouter>
-        <SponsorComponent />
+        
     </React.StrictMode>,
     document.getElementById('root')
 );
