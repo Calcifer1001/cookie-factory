@@ -31,7 +31,6 @@ const SponsorTitle = styled.div`
 
 const Container = styled.div`
     display: grid;
-    height: 100vh;
     color: white;
     grid-template-rows: 0.1fr 0.1fr;
     grid-template-areas:
