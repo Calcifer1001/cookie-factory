@@ -38,6 +38,7 @@ export const Authors = {
   ],
 };
 
+
 export const Attributes = {
   Title: "Nice cookie designs for everybody",
   DisplayText:
@@ -45,6 +46,7 @@ export const Attributes = {
 };
 
 export const Emotions = {
+
   Title: "Cookies are delicious",
   DisplayText:
     "Cookies have been at our tables, bringing joy to our lives for over a milennia now. That is why we want to bring you cookies to the comforts of the internet, so you can share a good time with your friends and family.",

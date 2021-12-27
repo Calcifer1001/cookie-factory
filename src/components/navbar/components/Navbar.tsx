@@ -1,7 +1,8 @@
 import NavbarItem from "./NavbarItem";
 import ConnectWalletButton from "./ConnectWalletButton";
 import "../assets/navbar.css";
-import CookieLogo from "../assets/cookie-logo-final.svg";
+import CookieLogo from '../assets/cookie-logo-final.svg';
+import Countdown from './Countdown';
 
 const Navbar = (props: Record<string, any>) => {
   return (
@@ -32,5 +33,4 @@ const Navbar = (props: Record<string, any>) => {
     </div>
   );
 };
-
 export default Navbar;

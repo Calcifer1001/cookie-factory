@@ -6,7 +6,6 @@ const Author = (props: Record<string, any>) => {
     <div>
       <AuthorColumn>
         <img src={BASE_URL + props.src} alt="logo.png" />
-
         <AuthorName>
           <h3>{props.name}</h3>
         </AuthorName>

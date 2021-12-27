@@ -15,7 +15,6 @@ import { Footer } from "./components/footer/Footer";
 const AllCookies = React.lazy(
   () => import("./components/allcookies/AllCookies")
 );
-
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
