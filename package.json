@@ -25,14 +25,9 @@
     "walletconnect": "^1.6.6",
     "web-vitals": "^1.0.1"
   },
-  "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-nightly.2338",
-    "@parcel/transformer-sass": "^2.0.0-nightly.716",
-    "parcel": "^2.0.1"
-  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "parcel build src/index.html --public-url https://cookiefactory.co/home/",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
