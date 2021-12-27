@@ -12,29 +12,24 @@ export const Minting = {
 export const Authors = {
     basicData: [
         {
-            Name: 'Cookie Maker 1',
-            Description: 'One of the most famous Cookie Makers in our Galaxy',
-            src: 'logo.png',
+            Name: 'Chocochips',
+            Description: 'Dominates the art of cookie preparation for a long time. We all followed his example for the project',
+            src: '3249.png',
         },
         {
-            Name: 'Cookie Maker 2',
-            Description: 'One of the most famous Cookie Makers in our Galaxy',
-            src: 'logo.png'
+            Name: 'Butter cookie',
+            Description: 'Flavour tester. All our cookie\'s quality are top quality thanks to this guy',
+            src: '1001.png'
         },
         {
-            Name: 'Cookie Maker 3',
-            Description: 'One of the most famous Cookie Makers in our Galaxy',
-            src: 'logo.png'
+            Name: 'Oreo',
+            Description: 'Looks are also important. Responsible for these good looking cookies',
+            src: '856.png'
         },
         {
-            Name: 'Cookie Maker 4',
-            Description: 'One of the most famous Cookie Makers in our Galaxy',
-            src: 'logo.png'
-        },
-        {
-            Name: 'Cookie Maker 5',
-            Description: 'One of the most famous Cookie Makers in our Galaxy',
-            src: 'logo.png'
+            Name: 'Fortune cookie',
+            Description: 'Multitasking cookie maker. All over the kitchen helping other',
+            src: '798.png'
         }
     ]
 }
@@ -46,7 +41,7 @@ export const Attributes = {
 
 export const Emotions = {
     Title: 'Cookies are delicious',
-    DisplayText: 'CCookies have been at our tables, bringing joy to our lives for over a milennia now. That is why we want to bring you cookies to the comforts of the internet, so you can share a good time with your friends and family.'
+    DisplayText: 'Cookies have been at our tables, bringing joy to our lives for over a milennia now. That is why we want to bring you cookies to the comforts of the internet, so you can share a good time with your friends and family.'
 }
 
 export const FAQs = {

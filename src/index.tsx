@@ -11,13 +11,16 @@ import Navbar from "./components/navbar/components/Navbar";
 
 import ConnectWallet from "./components/connectWallet/ConnectWallet";
 import { Footer } from "./components/footer/Footer";
+// import AllCookies from "./components/allcookies/AllCookies";
+const AllCookies = React.lazy(() => import("./components/allcookies/AllCookies"));
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/home">
           <Home />
         </Route>
         <Route exact path="/minting">
@@ -31,6 +34,11 @@ ReactDOM.render(
         </Route>
         <Route exact path="/connectWallet">
           <ConnectWallet />
+        </Route>
+        <Route exact path="/cookies">
+          <React.Suspense fallback={<>...</>}>
+            <AllCookies />
+          </React.Suspense>
         </Route>
       </Switch>
     </BrowserRouter>

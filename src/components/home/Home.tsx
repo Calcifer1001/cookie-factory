@@ -1,5 +1,5 @@
 import React from 'react';
-import Welcome from './components/Welcome';
+import Welcome, { BASE_URL } from './components/Welcome';
 import PropsSection from './components/PropsSection';
 import { Attributes, Emotions} from '../../../src/common/resource'
 import SponsorComponent from './components/SponsorComponent';
@@ -14,10 +14,10 @@ export default function Home() {
             <section className="props-section">
                 <div>
                     <div>
-                        <PropsSection align='left' title={Emotions.Title} text={Emotions.DisplayText}/>
+                        <PropsSection align='left' title={Emotions.Title} text={Emotions.DisplayText} src={BASE_URL + "4368.png"}/>
                     </div>
                     <div>
-                        <PropsSection align='right' title={Attributes.Title} text={Attributes.DisplayText}/>
+                        <PropsSection align='right' title={Attributes.Title} text={Attributes.DisplayText} src={BASE_URL + "4369.png"}/>
                     </div>
                 </div>
             </section>

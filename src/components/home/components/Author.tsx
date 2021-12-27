@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { BASE_URL } from './Welcome';
 
 const Author = (props: Record<string, any>) => {
     return(
         <div>
             <AuthorColumn>
-                <img src={props.src} alt="logo.png" />
+                <img src={BASE_URL + props.src} alt="logo.png" />
                 <AuthorName>
                     <h3>{props.name}</h3>
                 </AuthorName>

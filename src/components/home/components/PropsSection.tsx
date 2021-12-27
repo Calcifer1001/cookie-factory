@@ -1,6 +1,7 @@
 import "../assets/common.css";
 import PropsTitle from "./PropsTitle";
 import PropsText from "./PropsText";
+import { BASE_URL } from "./Welcome";
 
 const PropsSection = (props: Record<string, any>): JSX.Element => {
     if (props.align == 'left') {
@@ -16,7 +17,7 @@ const PropsSection = (props: Record<string, any>): JSX.Element => {
                         />
                     </div>
                     <div className="column">
-                        <img alt="logo.png" />
+                        <img alt="cookie.png" src={props.src} />
                     </div>
                 </div>
             </div>
@@ -26,7 +27,7 @@ const PropsSection = (props: Record<string, any>): JSX.Element => {
             <div className="max-width">
                 <div className="row">
                     <div className="column">
-                        <img alt="logo.png" />
+                        <img alt="logo.png"  src={props.src}/>
                     </div>
                     <div className="column">
                         <PropsTitle
