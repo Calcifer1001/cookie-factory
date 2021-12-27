@@ -12,9 +12,9 @@ import Navbar from "./components/navbar/components/Navbar";
 import ConnectWallet from "./components/connectWallet/ConnectWallet";
 import { Footer } from "./components/footer/Footer";
 // import AllCookies from "./components/allcookies/AllCookies";
-const AllCookies = React.lazy(() => import("./components/allcookies/AllCookies"));
-
-
+const AllCookies = React.lazy(
+  () => import("./components/allcookies/AllCookies")
+);
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />

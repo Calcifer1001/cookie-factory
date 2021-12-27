@@ -1,5 +1,5 @@
 .grid-all {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 80px;
 }
