@@ -1,43 +1,41 @@
-import { Sponsors } from '../../../common/resource';
+import { Sponsors } from "../../../common/resource";
 import SponsorItem from "./SponsorItem";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const SponsorComponent = (props: Record<string, any>) => {
-    return (
-            <div>
-                <SponsorTitle> Sponsored by </SponsorTitle>
-                <Container>
-                    <ContentBox>
-                            <Sponsor1>
-                                <SponsorItem sponsor={Sponsors.sponsors[0]} alt='logo.png'/>
-                            </Sponsor1>
-                            <Sponsor2>
-                                <SponsorItem sponsor={Sponsors.sponsors[1]} alt='logo.png'/>
-                            </Sponsor2>
-                    </ContentBox>
-                </Container>
-            </div>
-    )
-}
+  return (
+    <div>
+      <SponsorTitle> Sponsored by </SponsorTitle>
+      <Container>
+        <ContentBox>
+          <Sponsor1>
+            <SponsorItem sponsor={Sponsors.sponsors[0]} alt="logo.png" />
+          </Sponsor1>
+          <Sponsor2>
+            <SponsorItem sponsor={Sponsors.sponsors[1]} alt="logo.png" />
+          </Sponsor2>
+        </ContentBox>
+      </Container>
+    </div>
+  );
+};
 
 const SponsorTitle = styled.div`
-    font-family: Verdana;
-    color: purple;
-    font-size: 200%;
-    background-color: lightskyblue;
-    text-align: center;
-    padding: 2%
-    `
+  font-family: Verdana;
+  color: purple;
+  font-size: 200%;
+  background-color: lightskyblue;
+  text-align: center;
+  padding: 2%;
+`;
 
 const Container = styled.div`
-    display: grid;
-    height: 100vh;
-    color: white;
-    grid-template-rows: 0.1fr 0.1fr;
-    grid-template-areas:
-        "sponsor sponsor";
-    text-align: center;
-    grid-gap: 0.5rem;
+  display: grid;
+  color: white;
+  grid-template-rows: 0.1fr 0.1fr;
+  grid-template-areas: "sponsor sponsor";
+  text-align: center;
+  grid-gap: 0.5rem;
 `;
 
 const ContentBox = styled.div`
@@ -56,7 +54,6 @@ const Sponsor1 = styled.div`
   height: 100%;
 `;
 
-const Sponsor2 = styled(Sponsor1)`
-`;
+const Sponsor2 = styled(Sponsor1)``;
 
 export default SponsorComponent;
