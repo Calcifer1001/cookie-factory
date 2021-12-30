@@ -2,6 +2,7 @@ import "../assets/common.css";
 import PropsTitle from "./PropsTitle";
 import PropsText from "./PropsText";
 import { BASE_URL } from "./Welcome";
+import styled from "styled-components";
 
 const PropsSection = (props: Record<string, any>): JSX.Element => {
   if (props.align == "left") {

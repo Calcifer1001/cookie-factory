@@ -11,9 +11,12 @@ const SponsorComponent = (props: Record<string, any>) => {
           <Sponsor1>
             <SponsorItem sponsor={Sponsors.sponsors[0]} alt="logo.png" />
           </Sponsor1>
-          <Sponsor2>
+          <Sponsor1>
             <SponsorItem sponsor={Sponsors.sponsors[1]} alt="logo.png" />
-          </Sponsor2>
+          </Sponsor1>
+          <Sponsor1>
+            <SponsorItem sponsor={Sponsors.sponsors[2]} alt="logo.png" />
+          </Sponsor1>
         </ContentBox>
       </Container>
     </div>
@@ -22,9 +25,9 @@ const SponsorComponent = (props: Record<string, any>) => {
 
 const SponsorTitle = styled.div`
   font-family: Verdana;
-  color: purple;
+  color: #FFF;
   font-size: 200%;
-  background-color: lightskyblue;
+  background-color: #d18436;
   text-align: center;
   padding: 2%;
 `;
@@ -48,7 +51,6 @@ const ContentBox = styled.div`
 `;
 
 const Sponsor1 = styled.div`
-  background: white;
   padding: 0.25rem;
   width: 100%;
   height: 100%;

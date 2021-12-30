@@ -18,9 +18,9 @@ const Navbar = (props: Record<string, any>) => {
                   className="cookie-logo"
                 />
               </a>
-              <NavbarItem displayText="Minting" href="http://localhost:1234" />
+              <NavbarItem displayText="Minting" href="/minting" />
               <NavbarItem displayText="FAQ" href="/faq" />
-              <NavbarItem displayText="Market" href="http://localhost:61015" />
+              <NavbarItem displayText="Market" href="/market" />
             </div>
             {/* <ConnectWalletButton
                             displayText="Connect Wallet"

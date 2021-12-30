@@ -18,7 +18,7 @@ export default function Home() {
               align="left"
               title={Emotions.Title}
               text={Emotions.DisplayText}
-              src={BASE_URL + "4368.png"}
+              src={BASE_URL + "745.png"}
             />
           </div>
           <div>
@@ -26,13 +26,13 @@ export default function Home() {
               align="right"
               title={Attributes.Title}
               text={Attributes.DisplayText}
-              src={BASE_URL + "4369.png"}
+              src={BASE_URL + "999.png"}
             />
           </div>
         </div>
       </section>
       <section className="authors-section align-center ptb-120">
-        <AuthorsSection />
+        <AuthorsSection/>
       </section>
       <SponsorComponent />
     </main>

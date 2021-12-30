@@ -7,7 +7,7 @@ import Author from "./Author";
 const AuthorsSection = (props: Record<string, any>) => {
         return (
             <div className="max-width">
-                    <div className="flex-row">
+                    <div className="flex-row grid-authors">
                         {Authors.basicData.map(author => (
                             <Author name={author.Name} text={author.Description} src={author.src}/>
                         ))}
