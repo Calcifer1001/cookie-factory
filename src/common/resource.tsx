@@ -43,7 +43,7 @@ export const Authors = {
 export const Attributes = {
   Title: "Nice cookie designs for everybody",
   DisplayText:
-    "Some more text here about the cookies and all of that, etcetera, more more more.",
+    "You can have a cookie that matches what you want. Good cookies, badass cookies, nerdy cookies and more! All of these, with all the tastiness that reality allow us.",
 };
 
 export const Emotions = {
@@ -106,7 +106,7 @@ export const Sponsors = {
     },
     {
       src: narwalletsLogo,
-      href: "https://chrome.google.com/webstore/detail/narwallets/bnbmlmjhaohpobnjfifeghjmamjfolnb",
+      href: "https://chrome.google.com/webstore/detail/narwallets-v3/ipbomjpcpbebobdnkoogngmknkohncjd",
     },
     {
       src: cheddarLogo,

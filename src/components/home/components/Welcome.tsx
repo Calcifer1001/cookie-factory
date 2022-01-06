@@ -27,7 +27,7 @@ export default function Welcome() {
         </a>
         <h1>Hungry for cookies?</h1>
         <p>
-          Get some of the 1,200 unique cookie NFTs. Have them until you are full.
+          Get some of the 10,500 unique cookie NFTs in 3 different batches. Have them until you are full.
         </p>
       </div>
     </div>
