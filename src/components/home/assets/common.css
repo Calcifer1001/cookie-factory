@@ -2,6 +2,7 @@ h1 {
   font-family: var(--cool-font);
   font-size: var(--fs-xxxl);
   color: var(--dark-brown);
+  font-weight: 500;
 }
 
 h1 ~ p {
@@ -39,6 +40,7 @@ h1 ~ p {
 
 .props-section h2 {
   color: white;
+  font-weight: 500;
 }
 
 .hero-cookie {

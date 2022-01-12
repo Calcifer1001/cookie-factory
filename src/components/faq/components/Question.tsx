@@ -8,6 +8,8 @@ const Question = (props: Record<string, any>) => {
     );
 }
 
-const QuestionStyle = styled.h2``
+const QuestionStyle = styled.h2`
+    font-weight: 500;
+`
 
 export default Question;
