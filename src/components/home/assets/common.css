@@ -12,8 +12,13 @@ h1 ~ p {
 }
 
 .hero-container {
-  padding-top: 240px;
+  padding-top: 50px;
   padding-bottom: 160px;
+}
+
+.title {
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .authors-section {

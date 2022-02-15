@@ -22,7 +22,7 @@ export const Footer = () => {
             fontWeight: 700,
           }}
         >
-          Made In North Pole &#47; Copyright &#174; 2021
+          Made In North Pole &#47; Copyright &#174; 2022
         </p>
       </footer>
     </>
