@@ -63,27 +63,22 @@ export const FAQs = {
     {
       question: "What is Cookies NFT?",
       answer:
-        "Cookies is a collection of 1,200 uniquely generated Non-Fungible Tokens (NFTs).",
+        "Cookies is a collection of uniquely generated Profile-Picture Non-Fungible Tokens (PFP-NFTs).",
     },
     {
       question: "How to get Cookies NFTs?",
       answer:
-        "Participate in the launch on Near. Get whitelisted and participate in the lottery and sale.",
+        "Participate in the fair mint event, you can use stNEAR, META or CHEDDAR!",
     },
     {
       question: "What Near wallets can I use?",
       answer:
-        "We recommend to use regular Near wallet or Narwallets.",
-    },
-    {
-      question: "How does Whitelisting work?",
-      answer:
-        "Connect your wallet to the Near platform and follow the launch procedure.",
+        "We recommend to use regular Near Web wallet or Narwallets.",
     },
     {
       question: "How do I swap my Cookie?",
       answer:
-        "Marketplace is to-be-announced where Cookies can be swapped between collectors.",
+        "The Marketplace will be enabled after the fair mint event, where Cookies can be swapped between collectors.",
     },
     {
       question: "What are your official social media channels?",
@@ -93,7 +88,7 @@ export const FAQs = {
     {
       question: "How were the Cookies generated?",
       answer:
-        "All individual pieces of the Cookies have been created by hand and algorithmically assigned using custom code. There are 57 attributes across 6 types. With this combination of types and attributes, hundreds of thousands of unique Cookies can be generated. But only a set of 1,200 will be sold, some are more unique and more rare than the others.",
+        "All individual pieces of the Cookies have been created by hand and algorithmically assigned using custom code. There are 57 attributes across 6 types. With this combination of types and attributes, hundreds of thousands of unique Cookies can be generated. Some are more unique and more rare than the others.",
     },
   ],
 };
