@@ -83,12 +83,12 @@ export const FAQs = {
     {
       question: "What are your official social media channels?",
       answer:
-        `You can contact us through our <a href="https://t.me/+nqMt1bFRSHMxYzhh">Telegram</a>, <a href="https://discord.gg/hVFfsy6Pat">Discord</a> or <a href="">Twitter</a> groups.`,
+        `You can contact us through our <a href="https://t.me/+nqMt1bFRSHMxYzhh">Telegram</a> or <a href="https://discord.gg/hVFfsy6Pat">Discord</a> groups.`,
     },
     {
       question: "How were the Cookies generated?",
       answer:
-        "All individual pieces of the Cookies have been created by hand and algorithmically assigned using custom code. There are 57 attributes across 6 types. With this combination of types and attributes, hundreds of thousands of unique Cookies can be generated. Some are more unique and more rare than the others.",
+        "All of the Cookies have been created by our great artist manually and run through an algorithm to create these masterpieces. There are 43 attributes across 8 types. With this combination of types and attributes, tens of thousands of unique Cookies can be generated. Some are more unique and more rare than the others.",
     },
   ],
 };
